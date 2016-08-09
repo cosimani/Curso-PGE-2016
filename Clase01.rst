@@ -10,6 +10,7 @@ Clase 01 - PGE 2016
     :Fecha: 10 de agosto de 2016
     :Regularidad: 
         2 parciales 
+		
         Mini Exámenes de 30 minutos cada 15 días.
     :Opción B: Desarrollo en Qt aplicado a algo que les interese.        	
     :Temas principales: 
