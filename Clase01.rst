@@ -5,28 +5,28 @@
 Clase 01 - PGE 2016
 ===================
 
-    :Autor: César Osimani
-    :Correo: cosimani@ubp.edu.ar
-    :Fecha: 10 de agosto de 2016
-    :Regularidad: 
-        2 parciales 
-		
-        Mini Exámenes de 30 minutos cada 15 días.
-    :Opción B: Desarrollo en Qt aplicado a algo que les interese.        	
-    :Temas principales: 
-	- Programación genérica y orientada a eventos
-	- Sobrecarga de operadores
-	- Uso de plantillas
-	- Manejo de excepciones
-	- Interface Humano Computadora
-	- Resolver los problemas consultando documentación técnica de distintas fuentes
-	- Funciones callback
-	- Manejo de imágenes a nivel píxel
-	- OpenGL
-	- OpenCV - Procesamiento de imágenes
-	- Creación de librerías
-	- Linux (buena opción para facilitar la disponibilidad de bibliotecas precompiladas)
+:Autor: César Osimani
+:Correo: cosimani@ubp.edu.ar
+:Fecha: 10 de agosto de 2016
+:Regularidad: 
+	2 parciales 
 	
+	Mini Exámenes de 30 minutos cada 15 días.
+:Opción B: Desarrollo en Qt aplicado a algo que les interese.        	
+:Temas principales: 
+- Programación genérica y orientada a eventos
+- Sobrecarga de operadores
+- Uso de plantillas
+- Manejo de excepciones
+- Interface Humano Computadora
+- Resolver los problemas consultando documentación técnica de distintas fuentes
+- Funciones callback
+- Manejo de imágenes a nivel píxel
+- OpenGL
+- OpenCV - Procesamiento de imágenes
+- Creación de librerías
+- Linux (buena opción para facilitar la disponibilidad de bibliotecas precompiladas)
+
 	
 
 
