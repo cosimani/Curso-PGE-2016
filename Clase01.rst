@@ -10,7 +10,7 @@ Clase 01 - PGE 2016
     :Fecha: 10 de agosto de 2016
     :Regularidad: 
     	- 2 parciales 
-		- Mini Exámenes de 30 minutos cada 15 días.
+    	- Mini Exámenes de 30 minutos cada 15 días.
     :Temas principales: 
 	- Programación genérica y orientada a eventos
 	- Sobrecarga de operadores
@@ -24,6 +24,9 @@ Clase 01 - PGE 2016
 	- OpenCV - Procesamiento de imágenes
 	- Creación de librerías
 	- Linux (buena opción para facilitar la disponibilidad de bibliotecas precompiladas)
+	
+	
+
 
 Introducción
 ============
