@@ -23,10 +23,8 @@ Clase 01 - PGE 2016
 - Funciones callback
 - Manejo de imágenes a nivel píxel
 - OpenGL
-- OpenCV - Procesamiento de imágenes
+- Procesamiento de imágenes
 - Creación de librerías
-- Linux (buena opción para facilitar la disponibilidad de bibliotecas precompiladas)
-
 	
 
 
