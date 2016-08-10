@@ -11,8 +11,15 @@ Clase 01 - PGE 2016
 :Regularidad: 
 	2 parciales 
 	
-	Mini Exámenes de 30 minutos cada 15 días.
-:Opción B: Desarrollo en Qt aplicado a algo que les interese.        	
+	Mini Exámenes de 30 minutos cada semana
+:Opción B: 
+    Desarrollo en Qt para Android 
+	
+	Proponer un desarrollo que les interese
+	
+	Deadline para entregar el resumen (idea) del proyecto: Una semana antes del 1er parcial
+	
+	El proyecto reemplaza el examen final (no los parciales ni los Mini Exámenes)
 :Temas principales: 
 - Programación genérica y orientada a eventos
 - Sobrecarga de operadores
