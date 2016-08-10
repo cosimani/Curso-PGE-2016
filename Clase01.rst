@@ -13,7 +13,7 @@ Clase 01 - PGE 2016
 	
 	Mini Exámenes de 30 minutos cada semana
 :Opción B: 
-    Desarrollo en Qt para Android 
+	Desarrollo en Qt para Android 
 	
 	Proponer un desarrollo que les interese
 	
