@@ -19,7 +19,11 @@ Clase 01 - PGE 2016
 	
 	- Deadline para entregar el resumen (idea) del proyecto: Una semana antes del 1er parcial
 	
-	- El proyecto reemplaza el examen final (no los parciales ni los Mini Exámenes)
+	- El proyecto reemplaza los dos parciales (no los Mini Exámenes). 
+	
+	- Se entragarán avances en cada uno de los parciales.
+	
+	- Es individual o grupo de dos.
 :Temas principales:
 	- Programación genérica y orientada a eventos
 	- Sobrecarga de operadores
