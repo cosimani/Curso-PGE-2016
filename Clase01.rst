@@ -20,18 +20,18 @@ Clase 01 - PGE 2016
 	Deadline para entregar el resumen (idea) del proyecto: Una semana antes del 1er parcial
 	
 	El proyecto reemplaza el examen final (no los parciales ni los Mini Exámenes)
-:Temas principales: 
-- Programación genérica y orientada a eventos
-- Sobrecarga de operadores
-- Uso de plantillas
-- Manejo de excepciones
-- Interface Humano Computadora
-- Resolver los problemas consultando documentación técnica de distintas fuentes
-- Funciones callback
-- Manejo de imágenes a nivel píxel
-- OpenGL
-- Procesamiento de imágenes
-- Creación de librerías
+:Temas principales:
+	- Programación genérica y orientada a eventos
+	- Sobrecarga de operadores
+	- Uso de plantillas
+	- Manejo de excepciones
+	- Interface Humano Computadora
+	- Resolver los problemas consultando documentación técnica de distintas fuentes
+	- Funciones callback
+	- Manejo de imágenes a nivel píxel
+	- OpenGL
+	- Procesamiento de imágenes
+	- Creación de librerías
 	
 
 
