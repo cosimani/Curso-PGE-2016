@@ -133,99 +133,32 @@ Clase genérica Listado
 
     }
 
-
-Herencia
-========
-
-.. code-block::
-
-    template <class T> class Lista : public Listado<T>  {
- 
-        //////////
-
-    };
-
-- Es posible también que una clase derive de una u otra según se requiera.
-
-.. code-block::
-
-	#include <QString>
-	#include <QDebug>
-	#include <typeinfo>
-
-	class Real {
-	private:
-    	    int colores;
-
-	public:
-    	    Real(int colores) : colores(colores)  {  }
-     	    int getDato()  {  return colores;  }
-	};
-
-
-	class Virtual {
-	private:
-    	    int bits;
-
-	public:
-    	    Virtual(int bits) : bits(bits)  {  }
-    	    int getDato()  {  return bits;  }
-	};
-
-	template <class T> class Mundo : public T  {
-	private:
-    	    QString nombre;
-
-	public:
-    	    Mundo(QString nombre, int dato) : T(dato), nombre(nombre)  {  }
-
-    	    QString toString()  {
-        	QString descripcion = "El mundo " + nombre + " es de ";
-        	descripcion.append(QString::number(T::getDato()));
-
-        	if (typeid(T) == typeid(Real))
-            	    descripcion.append(" colores.");
-        	if (typeid(T) == typeid(Virtual))
-            	    descripcion.append(" bits.");
-
-        	return descripcion;
-    	    }
-    	};
-
-	int main(int, char **)  {
-    	    Mundo<Real> mundo1("Tierra", 10000);
-    	    Mundo<Virtual>* mundo2 = new Mundo<Virtual>("StarCraft", 64);
-
-    	    qDebug() << mundo1.toString();
-    	    qDebug() << mundo2->toString();
-
-	    return 0;
-	}
-
-
-
 Ejercicio:
 ==========
 
-- Crear una aplicación GUI 
 - En un archivo de cabecera definir la clase Listado con todos sus métodos off-line
 - Agregar un método que inserte un elemento en la posición i desplazando los otros
+
 .. code-block::
 
 	bool insert(int I, T elemento)
 
 - Agregar método que elimine todos los elementos
+
 .. code-block::
 
 	void clear()
 
-- Método que elimine x elementos. Los últimos o los primeros según el bool.
+- Método que elimine una cantidad x de elementos. Los últimos o los primeros según el bool.
+
 .. code-block::
 	
 	void erase(int x, bool front_or_back)
+	
+- Método que elimine el elemento de la posición i.
 
-- En la función main crear un listado con 5 QWidget o QWidget*
-- Al iniciar, usar un for para extraerlos y mostrarlos como ventanas independientes.
-
+.. code-block::
+	
+	void borrar(int i)
 
 
