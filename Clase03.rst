@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 03 - PGE 2015
+Clase 03 - PGE 2016
 ===================
 
 **Clase genérica con argumento por defecto**
@@ -30,6 +30,15 @@ Clase 03 - PGE 2015
 **Sobrecarga de operadores globales**
 
 .. figure:: images/clase03/operadores_globales.png
+
+Ejercicio:
+==========
+
+- Continuar el ejercicio anterior.
+- Utilice la clase genérica Listado dentor de un nuevo proyecto.
+- En la función main crear un listado con 5 QWidget
+- Al iniciar, usar un for para extraerlos y mostrarlos como ventanas independientes.
+- Prestar atención en el problema, y trate de hacerlo funcionar.
 
 **Ejercicio:**
 - Definir una clase genérica Vector que herede de QVector.

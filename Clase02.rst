@@ -74,15 +74,6 @@ Herencia
 	}
 
 
-Ejercicio:
-==========
-
-- Continuar el ejercicio anterior.
-- Utilice la clase genérica Listado dentor de un nuevo proyecto.
-- En la función main crear un listado con 5 QWidget
-- Al iniciar, usar un for para extraerlos y mostrarlos como ventanas independientes.
-- Prestar atención en el problema, y trate de hacerlo funcionar.
-
 Sobrecarga de operadores 
 ========================
 
