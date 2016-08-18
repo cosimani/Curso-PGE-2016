@@ -39,5 +39,16 @@ Clase QCompleter
 	
 	Line line = line1 + line2;	// Devuelve un Line con la suma de los textos
 
+MiniExámenes
+============
+
+- Se promediarán para la tercer nota de POO
+- Previstos: Agosto 24 - Agosto 31 - ...
+- Tiempo: 30 minutos
+- Temas para el 24 de agosto: 
+	- template
+	- Sobrecarga de operadores
+	- Clase Listado
+
 
 
