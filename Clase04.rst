@@ -37,6 +37,8 @@ Clase QCompleter
 	- Definir la clase Line que herede de QLineEdit
 	- Sobrecargar el operator+ para que:
 	
+.. code-block:: c
+	
 	Line line = line1 + line2;	// Devuelve un Line con la suma de los textos
 
 MiniExámenes
