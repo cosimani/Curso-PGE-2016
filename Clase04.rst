@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 04 - PGE 2015
+Clase 04 - PGE 2016
 ===================
 
 **Ejercicio:**
