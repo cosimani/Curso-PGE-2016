@@ -64,7 +64,8 @@ Clase QCompleter
 	- size() - Bloquearlo, que no se pueda usar.
 	- float getPromedio() - Si los elementos son int o float, devolver el promedio sino devolver -1
 
-**Captura de eventos con eventFilter**
+Captura de eventos con eventFilter
+==================================
 
 - En un QWidget dibujar una imagen de 50x50.
 - Con un QTimer hacer rotar la imagen cada 20 mseg.
