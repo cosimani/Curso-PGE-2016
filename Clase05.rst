@@ -14,12 +14,16 @@ Clase 05 - PGE 2016
 	#include <QString>
 
 	class LineaDeTexto : public QLineEdit  {
-	    Q_OBJECT   
+	    // Q_OBJECT 
+		// Si usamos Q_OBJECT sin separar la definicion de esta clase en su .h y .cpp puede no compilar
+		// Recordar que sin el Q_OBJECT no podremos definir signals ni slots en esta clase
 
 	public:
 	    LineaDeTexto(QString texto = "") : QLineEdit(texto)  {  }
 
-	    LineaDeTexto(const LineaDeTexto & linea)  {
+		// El constructor copia debe invocar explicitamente al constructor de 
+		// la clase base para que el compilador no tire un warning
+	    LineaDeTexto(const LineaDeTexto & linea) : QLineEdit()  {
 	        this->setText(linea.text());
 	    }
 
