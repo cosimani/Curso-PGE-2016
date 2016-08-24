@@ -128,7 +128,7 @@ Clase QCompleter
 
 **Ejercicio:** Modificar este ejemplo para que la imagen rote sobre su centro.
 
-**Resololución del Ejercicio Line:**
+**Resololución del Ejercicio LineaDeTexto:**
 
 .. code-block::
 
@@ -136,36 +136,36 @@ Clase QCompleter
 	#include <QLineEdit>
 	#include <QString>
 
-	class Line : public QLineEdit
-	{
-		Q_OBJECT   // A algunos no les compila con esta linea
+	class LineaDeTexto : public QLineEdit  {
+	    Q_OBJECT   
 
 	public:
-		Line(QString texto = "") : QLineEdit(texto)  {  }
+	    LineaDeTexto(QString texto = "") : QLineEdit(texto)  {  }
 
-		Line(const Line & line)  {
-			this->setText(line.text());
-		}
+	    LineaDeTexto(const LineaDeTexto & linea)  {
+	        this->setText(linea.text());
+	    }
 
-		Line& operator=(const Line & line)  {
-			this->setText(line.text());
-			return *this;
-		}
+	    LineaDeTexto& operator=(const LineaDeTexto & linea)  {
+	        this->setText(linea.text());
+	        return *this;
+	    }
 
-		Line operator+(const Line & line)  {
-			return Line(this->text() + line.text());
-		}
+	    LineaDeTexto operator+(const LineaDeTexto & linea)  {
+	        return LineaDeTexto(this->text() + linea.text());
+	    }
 	};
 
 	int main(int argc, char *argv[])  {
-		QApplication a(argc, argv);
-		Line l1("Hola ");
-		Line l2("che");
+	    QApplication a(argc, argv);
+	    LineaDeTexto linea1("Hola ");
+	    LineaDeTexto linea2("che");
+	    LineaDeTexto total;
 
-		Line total = l1 + l2;
-		total.show();
-		
-		return a.exec();
+	    total = linea1 + linea2;
+	    total.show();
+
+	    return a.exec();
 	}
 
 **Ejercicio:**
