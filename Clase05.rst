@@ -56,9 +56,7 @@ Clase QCompleter
 
 **Ejercicio:** Hacer lo mismo pero la base de datos que sea un archivo SQLite.
 
-**Ejercicio:**
-
-- Definir una clase genérica Vector que herede de QVector.
+**Ejercicio:** Definir una clase genérica Vector que herede de QVector.
 - Modificar el comportamiento de los siguientes métodos:
 	- at() - En vez de obtener el primer elemento con 0 lo haga con 1, el 1 con 2,...
 	- size() - Bloquearlo, que no se pueda usar.
