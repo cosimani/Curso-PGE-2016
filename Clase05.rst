@@ -126,7 +126,6 @@ Clase QCompleter
 	}
 
 
-
 **Ejercicio:** Modificar este ejemplo para que la imagen rote sobre su centro.
 
 **Resololución del Ejercicio Line:**
