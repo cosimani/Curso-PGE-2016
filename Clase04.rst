@@ -18,12 +18,12 @@ Clase 04 - PGE 2016
 .. figure:: images/clase04/operador_asignacion.png
 
 **Ejercicio:**
-	- Definir la clase Line que herede de QLineEdit
-	- Sobrecargar el operator+ para que:
+	- Definir la clase LineaDeTexto que herede de QLineEdit
+	- Sobrecargar el operator+ operator= y el contructor copia para que se puede ejecutar la siguiente línea de código:
 	
 .. code-block:: c
 	
-	Line line = line1 + line2;	// Devuelve un Line con la suma de los textos
+	linea = linea1 + linea2;  // Los tres son objetos LineaDeTexto y la suma devuelve un LineaDeTexto que tiene los textos concatenados
 	
 MiniExámenes
 ============
