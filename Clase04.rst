@@ -23,7 +23,8 @@ Clase 04 - PGE 2016
 	
 .. code-block:: c
 	
-	linea = linea1 + linea2;  // Los tres son objetos LineaDeTexto y la suma devuelve un LineaDeTexto que tiene los textos concatenados
+	linea = linea1 + linea2;  
+	// Los tres son objetos LineaDeTexto y la suma devuelve un LineaDeTexto que tiene los textos concatenados
 	
 MiniExámenes
 ============
