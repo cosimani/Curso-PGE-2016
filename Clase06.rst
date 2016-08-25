@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 06 - PGE 2015
+Clase 06 - PGE 2016
 ===================
 
 Captura de eventos con eventFilter
@@ -74,7 +74,7 @@ Captura de eventos con eventFilter
 	void Principal::paintEvent(QPaintEvent * e)  {
 		QPainter* p = new QPainter(this);
 		p->translate(this->width()/2 + transX, this->height()/2 + transY);
-		p->rotate(10*rotacion++);
+		p->rotate(10*++rotacion);
 		p->drawImage(0, 0, *image);
 		if (rotacion>=360)
 			rotacion = 0;
@@ -119,7 +119,6 @@ Captura de eventos con eventFilter
 
 
 **Ejercicio:** Modificar este ejemplo para que la imagen rote sobre su centro.
-
 
 **Creación y uso de librerías estáticas y dinámicas**
 
