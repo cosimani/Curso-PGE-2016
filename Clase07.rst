@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 07 - PGE 2015
+Clase 07 - PGE 2016
 ===================
 
 **Clase QTreeWidget**
@@ -216,7 +216,7 @@ Clase 07 - PGE 2015
 
 **Ejercicio 2:** En lugar de utilizar un QStringList como base de datos, utilizar una base de datos SQLite
 
-**Ejercicio 3:** Agregar esta característica de autocompletado a la clase Line.
+**Ejercicio 3:** Agregar esta característica de autocompletado a la clase LineaDeTexto.
 
 
 Uso de una clase propia con QtDesigner
@@ -256,8 +256,8 @@ Uso de una clase propia con QtDesigner
 	ui->tuLabel->cambiarTexto("Sos un TuLabel?");
 
 **Ejercicio 5:**
-	- En una nueva aplicación utilizar la clase Line con la característica de sugerencias
-	- Diseñar la GUI con QtDesigner usando QLineEdit y promoverlo a Line
+	- En una nueva aplicación utilizar la clase LineaDeTexto con la característica de sugerencias
+	- Diseñar la GUI con QtDesigner usando QLineEdit y promoverlo a LineaDeTexto
 
 **Creación y uso de librerías estáticas y dinámicas**
 
