@@ -245,7 +245,6 @@ Uso de una clase propia con QtDesigner
 	
 	}
 
-
 **Ejercicio 4:**
 	- Definir la clase TuLabel que herede de QLabel
 	- Agregar un QLabel a la GUI y promoverlo a TuLabel
@@ -259,6 +258,11 @@ Uso de una clase propia con QtDesigner
 **Ejercicio 5:**
 	- En una nueva aplicación utilizar la clase Line con la característica de sugerencias
 	- Diseñar la GUI con QtDesigner usando QLineEdit y promoverlo a Line
+
+**Creación y uso de librerías estáticas y dinámicas**
+
+.. figure:: images/clase06/portada_pdf.png
+	:target: resources/clase06/librerias.pdf
 
 
 

@@ -120,9 +120,3 @@ Captura de eventos con eventFilter
 
 **Ejercicio:** Modificar este ejemplo para que la imagen rote sobre su centro.
 
-**Creación y uso de librerías estáticas y dinámicas**
-
-.. figure:: images/clase06/portada_pdf.png
-	:target: resources/clase06/librerias.pdf
-
-
