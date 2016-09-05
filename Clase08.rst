@@ -5,6 +5,14 @@
 Clase 08 - PGE 2015
 ===================
 
+**Creación y uso de librerías estáticas y dinámicas**
+
+.. figure:: images/clase06/portada_pdf.png
+	:target: resources/clase06/librerias.pdf
+
+
+
+
 **QMainWindow**
 
 .. figure:: images/clase08/qmainwindow.png

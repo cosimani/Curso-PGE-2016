@@ -259,11 +259,6 @@ Uso de una clase propia con QtDesigner
 	- En una nueva aplicación utilizar la clase LineaDeTexto con la característica de sugerencias
 	- Diseñar la GUI con QtDesigner usando QLineEdit y promoverlo a LineaDeTexto
 
-**Creación y uso de librerías estáticas y dinámicas**
-
-.. figure:: images/clase06/portada_pdf.png
-	:target: resources/clase06/librerias.pdf
-
 
 
 
