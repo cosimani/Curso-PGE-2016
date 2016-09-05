@@ -2,46 +2,18 @@
 
 .. _rcs_subversion:
 
-Clase 08 - PGE 2015
+Clase 08 - PGE 2016
 ===================
 
-**Creación y uso de librerías estáticas y dinámicas**
+**Creación y uso de librerías dinámicas**
 
-.. figure:: images/clase06/portada_pdf.png
-	:target: resources/clase06/librerias.pdf
+.. figure:: images/clase08/librerias.png
 
+.. figure:: images/clase08/librerias01.png
 
+.. figure:: images/clase08/librerias02.png
 
-
-**QMainWindow**
-
-.. figure:: images/clase08/qmainwindow.png
-
-**QAction**
-
-.. figure:: images/clase08/qaction.png
-
-**QIcon**
-
-.. figure:: images/clase08/qicon.png
-
-:Buscar íconos aquí: http://findicons.com/
-
-**Ejercicio:** Editor de  código fuente C++
-
-.. figure:: images/clase08/ejercicio.png
-
-**Temas para el parcial**
-	- Sobrecarga de operadores
-	- Constructor copia y operador de asignación
-	- Template (Clases genéricas, herencia, argumento por defecto, etc.)
-	- Creación y uso de librerías dinámicas y estáticas
-	- Base de datos con SQLite (SELECT e INSERT)
-	- QWidgets propios en QtDesigner
-	- QMainWindow (widget central, RESOURCES, QActions, etc.)
-	- typeid
-	- static
-
+.. figure:: images/clase08/librerias03.png
 
 
 
