@@ -30,7 +30,7 @@ MiniExámenes
 ============
 
 - Se promediarán para la tercer nota de POO
-- Previstos: Agosto 24 - Septiembre 14 - ...
+- Previstos: Agosto 24 - Septiembre 28 - ...
 - Tiempo: 30 minutos
 - Temas para el 24 de agosto: 
 	- template

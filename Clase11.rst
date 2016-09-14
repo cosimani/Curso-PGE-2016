@@ -2,9 +2,8 @@
 
 .. _rcs_subversion:
 
-Clase 11 - PGE 2015
+Clase 11 - PGE 2016
 ===================
-
 
 Base de datos con SQLite
 ========================
