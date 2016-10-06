@@ -187,5 +187,5 @@ Mini Examen 2
 
 - `A ver? <https://github.com/cosimani/Curso-PGE-2016/blob/master/resource/clase15/Ejercicio1.rar?raw=true>`_
 
-- A ver? (https://www.youtube.com/watch?v=5M-Edl9veuQs)
+- A ver? (https://www.youtube.com/match?v=5M-Edl9veuQ)
 
