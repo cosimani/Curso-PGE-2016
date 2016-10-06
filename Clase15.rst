@@ -181,3 +181,11 @@ Tratamiento de excepciones
 
 - Diseñar una aplicación GUI que escriba en un archivo muchísimos caracteres de tal forma se note que la interfaz de usuario se bloquea hasta finalizar la escritura.
 - Luego de esto, utilizar un hilo distinto para escribir la misma cantidad de caracteres.
+
+Mini Examen 2
+^^^^^^^^^^^^^
+
+- `A ver? <https://github.com/cosimani/Curso-PGE-2016/blob/master/resources/clase15/Ejercicio1.rar?raw=true>`_
+
+- A ver? (https://www.youtube.com/watch?v=5M-Edl9veuQ)
+
