@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 16 - PGE 2015
+Clase 16 - PGE 2016
 ===================
 
 **Ejemplo creando nuestras propias clases para excepciones**
