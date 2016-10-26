@@ -68,8 +68,9 @@ Clase 19 - PGE 2015
 	    return 0;
 	}
 
-**Ejercicio:** Este trabajo es entregable y es parte de una nota más de MiniExámenes. Entrega: 1ero de noviembre hasta las 23.59 horas. 
+**Ejercicio:** Este trabajo es entregable y es parte de una nota más de MiniExámenes. 
 
+- **Entrega:** 1ero de noviembre hasta las 23.59 horas. 
 - Agregar la funcionalidad de sugerencias a la clase LineaDeTexto y que dichas sugerencias las busque desde Google.
 - Ejemplo en: http://doc.qt.io/qt-5/qtnetwork-googlesuggest-example.html
 - `Descargar LineaDeTexto con sugerencias de Google aquí <https://github.com/cosimani/Curso-PGE-2015/blob/master/sources/clase18/lineadetexto.rar?raw=true>`_
