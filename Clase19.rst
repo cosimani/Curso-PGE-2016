@@ -79,7 +79,8 @@ Clase 19 - PGE 2015
 - Con apoyo de las sugerencias de Google se ingresan los datos sin errores en el nombre ni en la empresa.
 - Guardar en una base Sqlite.
 - Agregar en LineaDeTexto un método que recibe un puntero a una función global que aplique un filtro a las sugerencias.
-- El filtro será una cadena que descarta las sugerencias que contengan esta cadena.
+- El filtro será una QStringList que contiene todas las cadenas que deberán descartarse de las sugerencias.
+- El filtro se actualizará cada vez que se de de alta un nuevo directivo, la idea es que los nombre ya agregados no se sugieran más.
 
 
 Ejercicios para OpenGL y Procesamiento de Imágenes
