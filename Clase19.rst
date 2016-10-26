@@ -68,17 +68,17 @@ Clase 19 - PGE 2015
 	    return 0;
 	}
 
-**Ejercicio:** 
+**Ejercicio:** Este trabajo es entregable y es parte de una nota más de MiniExámenes. Entrega: 1ero de noviembre hasta las 23.59 horas. 
 
 - Agregar la funcionalidad de sugerencias a la clase LineaDeTexto y que dichas sugerencias las busque desde Google.
-- http://doc.qt.io/qt-5/qtnetwork-googlesuggest-example.html
-- `Descargar LineaDeTexto desde aquí <https://github.com/cosimani/Curso-PGE-2015/blob/master/sources/clase18/lineadetexto.rar?raw=true>`_
-- Crear un QtChrome que permita buscar en Google la sugerencia elegida. 
-- Notar la signal que tiene disponible LineaDeTexto.
-- Para lograr la búsqueda en Google se puede usar la siguiente URL: https://www.google.com.ar/search?source=lnms&sa=X&dpr=1&q=ubp
-- Que la aplicación tenga un aspecto como:
-
-.. figure:: images/clase18/navegador.png
+- Ejemplo en: http://doc.qt.io/qt-5/qtnetwork-googlesuggest-example.html
+- `Descargar LineaDeTexto con sugerencias de Google aquí <https://github.com/cosimani/Curso-PGE-2015/blob/master/sources/clase18/lineadetexto.rar?raw=true>`_
+- Implementar LineaDeTexto en un Formulario de alta de directivos de empresas (pide Nombre completo, Empresa y Cargo)
+- Suponga que un Call Center llama a las empresas para dar de alta a los directivos. 
+- Con apoyo de las sugerencias de Google se ingresan los datos sin errores en el nombre ni en la empresa.
+- Guardar en una base Sqlite.
+- Agregar en LineaDeTexto un método que recibe un puntero a una función global que aplique un filtro a las sugerencias.
+- El filtro será una cadena que descarta las sugerencias que contengan esta cadena.
 
 
 Ejercicios para OpenGL y Procesamiento de Imágenes
