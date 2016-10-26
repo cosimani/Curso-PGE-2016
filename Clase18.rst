@@ -5,69 +5,6 @@
 Clase 18 - PGE 2016
 ===================
 
-**Ejemplo: Función callback**
-
-.. code-block:: c++
-
-	#ifndef BOTONES_H
-	#define BOTONES_H
-
-	class Boton{
-	public:
-	    virtual void click()  {  }
-	};
-
-	template <class T> class BotonCallBack : public Boton  {
-	private:
-	    T *destinatario;
-	    void (T::*callback)(void);
-	public:
-	    BotonCallBack(T *otro, void (T::*puntero_funcion)(void))
-	        : destinatario(otro), callback(puntero_funcion)  {  }
-	
-	    void click()  {
-	        (destinatario->*callback)();
-	    }
-	};
-
-	#endif // BOTONES_H
-
-.. code-block:: c++
-
-	#ifndef REPRODUCTOR_H
-	#define REPRODUCTOR_H
-
-	#include <QDebug>
-
-	class MP3Player{
-	public:
-	    void play()  {
-	        qDebug() << "Escuchando...";
-	    }
-	};
-
-	#endif // REPRODUCTOR_H
-
-.. code-block:: c++
-
-	#include <QApplication>
-	#include "botones.h"
-	#include "reproductor.h"
-
-	int main(int argc, char** argv)  {
-	    QApplication a(argc, argv);
-
-	    MP3Player mp3;
-	    BotonCallBack<MP3Player> *boton;
-
-	    //Conecta un MP3Player a un botón
-	    boton = new BotonCallBack<MP3Player>(&mp3, &MP3Player::play);
-
-	    boton->click();
-
-	    return 0;
-	}
-
 **Array de punteros a función**
 
 - Los punteros a funciones se pueden agruparse en arreglos
@@ -224,10 +161,8 @@ Clase 18 - PGE 2016
 	
 - Notar que ordenar podrá ordenar elementos de cualquier tipo, siempre y cuando los objetos a ordenar sean de una clase que tenga sobrecargado el operador >
 	
-	
 
-
-**Ejercicio 1:**
+**Ejercicio:**
 
 - Modificar el ejercicio de la clase ListadoEnteros para usar funciones globales de ordenamiento, es decir, que no se encuentren dentro de Ordenador ni de ninguna clase.
 
@@ -247,7 +182,7 @@ Clase 18 - PGE 2016
 
     listado.ordenar(ordenador);
 
-**Ejercicio 2:**
+**Ejercicio:**
 
 - Modificar el ejercicio anterior usando también funciones globales de ordenamiento pero con la clase ListadoGenerico que sea un template:
 
@@ -260,7 +195,7 @@ Clase 18 - PGE 2016
 	    }
 	};
 
-**Ejercicio 3:**
+**Ejercicio:**
 
 - Necesitamos conocer el rendimiento de cada algoritmo de ordenamiento midiendo su tiempo.
 - Utilizar un array de punteros a funciones que apunte a cada función global de ordenamiento.
@@ -277,17 +212,6 @@ Clase 18 - PGE 2016
 
     listado.ordenar(ordenador[1]);
 
-**Ejercicio 4:** 
-
-- Agregar la funcionalidad de sugerencias a la clase LineaDeTexto y que dichas sugerencias las busque desde Google.
-- http://doc.qt.io/qt-5/qtnetwork-googlesuggest-example.html
-- `Descargar LineaDeTexto desde aquí <https://github.com/cosimani/Curso-PGE-2015/blob/master/sources/clase18/lineadetexto.rar?raw=true>`_
-- Crear un QtChrome que permita buscar en Google la sugerencia elegida. 
-- Notar la signal que tiene disponible LineaDeTexto.
-- Para lograr la búsqueda en Google se puede usar la siguiente URL: https://www.google.com.ar/search?source=lnms&sa=X&dpr=1&q=ubp
-- Que la aplicación tenga un aspecto como:
-
-.. figure:: images/clase18/navegador.png
 
 
 

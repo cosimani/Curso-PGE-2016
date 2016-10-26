@@ -5,6 +5,82 @@
 Clase 19 - PGE 2015
 ===================
 
+**Otro ejemplo: Función callback**
+
+.. code-block:: c++
+
+	#ifndef BOTONES_H
+	#define BOTONES_H
+
+	class Boton{
+	public:
+	    virtual void click()  {  }
+	};
+
+	template <class T> class BotonCallBack : public Boton  {
+	private:
+	    T *destinatario;
+	    void (T::*callback)(void);
+	public:
+	    BotonCallBack(T *otro, void (T::*puntero_funcion)(void))
+	        : destinatario(otro), callback(puntero_funcion)  {  }
+	
+	    void click()  {
+	        (destinatario->*callback)();
+	    }
+	};
+
+	#endif // BOTONES_H
+
+.. code-block:: c++
+
+	#ifndef REPRODUCTOR_H
+	#define REPRODUCTOR_H
+
+	#include <QDebug>
+
+	class MP3Player{
+	public:
+	    void play()  {
+	        qDebug() << "Escuchando...";
+	    }
+	};
+
+	#endif // REPRODUCTOR_H
+
+.. code-block:: c++
+
+	#include <QApplication>
+	#include "botones.h"
+	#include "reproductor.h"
+
+	int main(int argc, char** argv)  {
+	    QApplication a(argc, argv);
+
+	    MP3Player mp3;
+	    BotonCallBack<MP3Player> *boton;
+
+	    //Conecta un MP3Player a un botón
+	    boton = new BotonCallBack<MP3Player>(&mp3, &MP3Player::play);
+
+	    boton->click();
+
+	    return 0;
+	}
+
+**Ejercicio:** 
+
+- Agregar la funcionalidad de sugerencias a la clase LineaDeTexto y que dichas sugerencias las busque desde Google.
+- http://doc.qt.io/qt-5/qtnetwork-googlesuggest-example.html
+- `Descargar LineaDeTexto desde aquí <https://github.com/cosimani/Curso-PGE-2015/blob/master/sources/clase18/lineadetexto.rar?raw=true>`_
+- Crear un QtChrome que permita buscar en Google la sugerencia elegida. 
+- Notar la signal que tiene disponible LineaDeTexto.
+- Para lograr la búsqueda en Google se puede usar la siguiente URL: https://www.google.com.ar/search?source=lnms&sa=X&dpr=1&q=ubp
+- Que la aplicación tenga un aspecto como:
+
+.. figure:: images/clase18/navegador.png
+
+
 Ejercicios para OpenGL y Procesamiento de Imágenes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
