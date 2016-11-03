@@ -5,6 +5,27 @@
 Clase 21 - PGE 2015
 ===================
 
+Ejercicio con punteros a funciones y ruteo
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Pensar en la siguiente topología
+
+.. figure:: images/clase21/topologia.png
+
+- `Descargar el siguiente proyecto Qt <https://github.com/cosimani/Curso-PGE-2016/blob/master/resources/clase21/redes.rar?raw=true>`_
+- En la clase Router definir un método que reciba como parámetro un puntero a función, por ejemplo:
+
+.. code-block:: c++	
+
+	void setTabla( QList<QStringList> (*puntero) () );
+	
+- El puntero apunta a una función global en el archivo de cabecera rutas.h donde existen varias funciones que generan distintas tablas de ruteo.
+- Notar que cada router tiene su propia tabla de ruteo
+
+
+
+
+
 Ejercicios para OpenGL y Procesamiento de Imágenes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
