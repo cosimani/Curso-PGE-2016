@@ -92,7 +92,7 @@ Ejemplo de un proyecto base para el parcial
 	- Saltar
 	- Desplazarse hacia laterales
 
-Ejercicio 1
+Ejercicio 2
 ^^^^^^^^^^^
 
 - Dentro de la escena mostrar la cámara.
